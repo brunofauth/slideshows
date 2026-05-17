@@ -1,0 +1,22 @@
+#/bin/sh
+
+
+main() {
+    local template="$(\
+        find ./cookiecutters/ -mindepth 1 -maxdepth 1 -type d -print0 \
+        | fzf --read0 \
+            --delimiter=/ --with-nth=-1 \
+            --preview "bat --style=header-filename,numbers --color=always {}/cookiecutter.json" --preview-window=~1 \
+    )"
+    [ -z "$template" ] && {
+        >&2 echo "No cookiecutter chosen. Exiting"
+        exit 0
+    }
+
+    cookiecutter --output-dir ./slideshows/ "$template"
+}
+
+main "$@"
+
+# cookiecutter ./cookiecutters/
+# --output-dir

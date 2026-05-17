@@ -1,0 +1,98 @@
+#! /bin/sh
+
+
+md_with_extensions=markdown
+md_with_extensions="$md_with_extensions+all_symbols_escapable"
+md_with_extensions="$md_with_extensions+auto_identifiers"
+# md_with_extensions="$md_with_extensions+implicit_figures"
+md_with_extensions="$md_with_extensions+fenced_divs"
+md_with_extensions="$md_with_extensions+fancy_lists"
+md_with_extensions="$md_with_extensions+link_attributes"
+
+
+pandoc_options=
+
+# Produce output with an appropriate header and footer (e.g. a standalone HTML,
+# LaTeX, TEI, or RTF file, not a fragment).
+pandoc_options="$pandoc_options --standalone"
+
+# When using html/css/js-based slide writers, pandoc will look for the css/js
+# files around the cwd. If it does not find them, it will just LINK (<script
+# src=...>) these needed files to some URL out there. This option makes pandoc
+# download them at 'compile-time' and embed them in the final file
+# --> pandoc(1) § Options affecting specific writers
+#pandoc_options="$pandoc_options --embed-resources=true"
+
+# Include an automatically generated TOC in the output document. This option
+# has no effect unless -s/--standalone is used, and it has no effect on man,
+# docbook4, docbook5, or jats output.
+#pandoc_options="$pandoc_options --table-of-contents"
+
+# Number section headings in LaTeX, ConTeXt, HTML, Docx, ms, or EPUB output. By
+# default, sections are not numbered.
+# --> pandoc(1) § Options affecting specific writers
+#pandoc_options="$pandoc_options --number-section"
+
+# Headings above this level in the hierarchy are used to divide the slide show
+# into sections; headings below this level create subheads within a slide. 
+# --> pandoc(1) § Structuring the slide show
+pandoc_options="$pandoc_options --slide-level=2"
+
+
+cmd_notify_send=notify-send
+
+
+main() {
+    if ! command -v pandoc &>/dev/null; then
+        >&2 echo "Please install pandoc to use this script."
+        return 1
+    fi
+    if ! command -v notify-send &>/dev/null; then
+        >&2 echo "Optional dependency notify-send not found. Skipping."
+        cmd_notify_send=:
+    fi
+
+    local input_file="$1"
+    local _input_file_dn="$(dirname "$input_file")"
+    local output_file="$_input_file_dn/index.html"
+
+    pandoc \
+        $pandoc_options \
+        --css=css/default.css \
+        --resource-path="$_input_file_dn" \
+        -f "$md_with_extensions" \
+        -t revealjs \
+        "$input_file" \
+        -o "$output_file" &
+
+    local pandoc_pid=$!
+    echo Started Pandoc
+
+    start_time=$(date +%s)
+    while kill -0 $pandoc_pid &>/dev/null; do
+        sleep 2
+        printf 'Waiting for %s...\r' "$(date --date="@$(expr "$(date +%s)" - $start_time)" "+%M:%S")"
+    done
+    wait $pandoc_pid &>/dev/null # We don't wait at all here, we just call 'wait' to get the code.
+    pandoc_exit_code=$?
+    printf 'Took %s to run Pandoc!\n' "$(date --date="@$(expr "$(date +%s)" - $start_time)" "+%M:%S")"
+
+    if [ "$pandoc_exit_code" -ne 0 ]; then
+        "$cmd_notify_send" \
+            --urgency critical \
+            -t -1 \
+            "${0%%*/} @ $(realpath ${0%/*})" \
+            'Failed Miserably'
+    else
+        "$cmd_notify_send" \
+            -t -1 \
+            "${0%%*/} @ $(realpath ${0%/*})" \
+            "Generated $output_file"
+        echo "File generated at: $output_file"
+    fi
+
+    return "$pandoc_exit_code"
+}
+
+
+main "$@"

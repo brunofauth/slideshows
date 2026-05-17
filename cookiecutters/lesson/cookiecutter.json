@@ -1,0 +1,27 @@
+{
+  "full_name": "Bruno Vinícius Fauth",
+
+  "lesson_title": "Título da aula",
+  "lesson_subtitle": "",
+  "lesson_presentation_date": "",
+
+  "project_name": "Project Name",
+  "project_slug": "{{ cookiecutter.project_name|lower|replace(' ', '-')  }}",
+  "first_version": "0.1.0",
+
+  "embed_resources": false,
+  "theme": [
+    "beige",
+    "black",
+    "blood",
+    "dracula",
+    "league",
+    "moon",
+    "night",
+    "serif",
+    "simple",
+    "sky",
+    "solarized",
+    "white"
+  ]
+}
