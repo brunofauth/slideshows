@@ -13,6 +13,8 @@ author: "Bruno Vinícius Fauth"
 
 date: "18/05/26"
 
+slide-level: 3
+
 # }}} PANDOC STANDARD VARIABLES
 
 
@@ -456,6 +458,7 @@ leves da lista, para fazer em casa/na rua/no trabalho.
 
 São mais eficazes para sintomas evitativos ou de rituais.
 
+<<<<<<< HEAD
 ::: incremental
 
 
@@ -470,3 +473,187 @@ São mais eficazes para sintomas evitativos ou de rituais.
 
 - Eliminação competitiva das sinapses (poda)
 
+=======
+**Exposição:** contato direto ou imaginário com aquilo que ativa o desconforto.
+
+- Pode ser usada contra a incerteza que antecede as verificações compulsivas.
+- Para ser eficaz, tem que causar desconforto real
+- Pode ser *in vivo* (tocar/manipular) ou imaginária (evocar sentimentos,
+  impulsos, palavras, cenas).
+    - Útil para professores que não podem se expor a cenários de alunos mortos
+      e outras obsessões repugnantes equivalentes.
+    - Solicita-se ao paciente que, de maneira mais vívida o possível, viva a
+      obsessão no imaginário ou escreva história na qual "comete" aquilo.
+
+
+### TCC: Técnicas Comportamentais
+
+**Prevenção de Respostas:** não realizar ato destinado a aliviar o desconforto.
+
+
+### TCC: Técnicas Comportamentais
+
+**Modelação:** consiste em o terapêuta fazer aquilo que o paciente evita e,
+após isso, não apresentar comportamento neutralizante, convidando o paciente a
+repetir.
+
+Exemplo: compartilhar garrafa de água.
+
+
+### TCC: Técnicas Cognitivas
+
+Benefícios: identificar e mudar pensamentos automáticos e crenças disfuncionais
+reduz ansiedade, aumenta insight (e, assim, adesão e motivação em relação à
+terapia).
+
+Leque de técnicas: psicoeducação sobre o modelo cognitivo, identificação de
+pensamentos automáticos, exame de evidências, técnica das hipóteses
+alternativas, pizza da responsabilidade.
+
+"Só não pensar nisso" não funciona e piora as coisas (aumenta ansiedade).
+
+
+### TCC: Técnicas Cognitivas
+
+**Psicoeducação:**
+
+1. Explicar o que são obsessões
+2. Explicar que todo mundo tem prensamentos intrusivos e que, no TOC, eles
+   viram obsessões por causa de interpretações erradas/catastrofização.
+3. Explicar como elas geram o comportamento compulsivo e que, se resistido,
+   ocorre a habituação.
+4. Orientar que aceite as obsessões bizarras são só um aspecto do TOC e que,
+   por serem só isso, não têm real importância, podendo, assim, serem
+   ignoradas.
+
+
+### TCC: Técnicas Cognitivas
+
+**Exame de Evidências:**
+
+1. No passado: "o que já aconteceu que poderia me convencer que essa crença
+   disfuncional é real e, portanto, a obsessão é mais do que só um pensamento
+   intrusivo?"
+
+2. No presente:
+    - qual é o sentimento associado: Prazer x angústia?
+    - tens planejamento ou pelo menos vontade de tornar isso realidade?
+    - esse pensamento é congruente com quem tu és?
+
+
+### TCC: Técnicas Cognitivas
+
+Quando o conteúdo é supersticioso, o paciente pode reconhecer a obsessão como
+irracional, mas, mesmo assim, manter atenção nela. Nesses casos, é importante
+exposição (*in vivo* ou imaginária).
+
+
+### TCC: Continuação do Tratamento
+
+**Sessões subseguintes:**
+
+1. Revisar humor e sintomas
+2. ponte para a sessão anterior
+3. modelação
+4. resumo breve dos tópicos abordados + psicoeducação
+5. trocar os exercícios vencidos por novos mais difíceis.
+6. revisão do que foi dito nesta sessão e dos avanços/dificuldades/tarefas
+7. avaliação da sessão pelo paciente
+
+
+### TCC: Continuação do Tratamento
+
+**Continuação das Sessões:**
+
+- Enquanto houver sintoma, há indicação de fazer mais sessões e mais exercícios.
+- Revisar a lista de sintomas e o mapa do TOC.
+- Re-aplicar Y-BOCS e OCI-R periodicamente.
+
+
+### TCC: Alta e Prevenção de Recaídas
+
+**Continuação das Sessões:**
+
+- Duração: doença leve --> ~10-20 sessões; doença grave --> meses
+- Espaçamento: semanal no início --> quinzenal --> mensal --> semestral
+- Explicar que lapso não é recaída
+- Planejar sessões de reforço a cada 2-3 meses SN.
+
+
+### TCC: Alta e Prevenção de Recaídas
+
+Para prevenir recaídas, o paciente deve:
+
+1. estar ciente daquilo que é gatilho para seus sintomas
+2. antecipar como que pode se comportar quando as situações-gatilhos acontecerem
+3. ter a percepção de não executar de forma automática os rituais
+
+
+# Tricotilomania
+
+## Visão Geral
+
+**cf. DSM-5:** comportamento de arrancar cabelos ou pelos do corpo que resulta
+em perda e sofrimento significativos, com tentativas malsucedidas de
+interromper a compulsão.
+
+**Subtipos:** automático (acontece em paralelo com outras atividades) e focado
+(é consciente e visa aliviar emoções negativas e pensamentos disfuncionais).
+
+
+## Tratamento Farmacológico
+
+Há pouca evidência disponível. Uma metanálise com 11 estudos mostrou tamanho de
+efeito grande para terapia comportamental (1.4) e moderado para drogas
+serotoninérgicas (0.4). O tamanho de efeito era maior para estudos com terapia
+comportamental mais longa.
+
+Olanzapina e Aripiprazol tiveram eficácia em ensaios abertos. Olanza teve
+eficácia em um ECR também. Naltrexona foi ineficaz.
+
+
+## Tratamento Psicoterápico: terapia de reversão de hábitos
+
+### Panorama
+
+- Fundamentos predominantemente comportamentais
+    - Recentemente, tem sido propostas mesclas entre essa e DBT/ACT/mindfulness
+
+- Objetivos:
+    1. obter consciência sobre a compulsão, monitorando-a e, assim, controlando
+       os fatores que precipitam e mantêm o comportamento.
+    2. escolher hábitos concorrentes e incompatíveis com a realização dos comportamentos
+
+
+### Passo-a-passo
+
+1. identificar horários/locais/situações nos quais o comportamento acontece
+    - Tendo consciência disso, consegue-se antecipar o acontecimento da compulsão
+
+2. quantificar o comportamento, para poder acompanhar o resultado do tratamento
+
+3. identificar os comportamentos que precedem a compulsão
+    - Quando o paciente está "se ensaiando" --> reconhecer para antecipar e mudar
+
+4. Fazer coisas incompatíveis com o comportamento
+    - Exemplo: quando nota que "tá se ensaiando", bota uma luva tipo saco.
+
+
+### Passo-a-passo
+
+5. Manobras reparatórias: desviar o impulso em algo equivalente, como pentear o
+   cabelo em vez de arrancar.
+
+6. Relaxamento muscular e respiração abdominal
+
+7. exposição e prevenção do impulso (como na EPR)
+
+8. Gratificar o progresso (conforme as métricas estabelecidas)
+
+
+# Transtorno de Escoriação
+
+# Transtorno de Acumulação Compulsiva
+
+# Transtorno Dismórfico Corporal
+>>>>>>> f5a6633 (tcc toc)
