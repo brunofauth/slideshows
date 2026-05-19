@@ -28,7 +28,7 @@ date: "{{ cookiecutter.lesson_presentation_date }}"
 # REVEALJS-SPECIFIC VARIABLES {{{
 
 # revealjs-url: "https://unpkg.com/reveal.js@5.2.1"
-revealjs-url: ../../../reveal.js
+revealjs-url: ../../reveal.js
 
 # All [reveal.js](https://revealjs.com/config/) configuration options can be
 # set through variables. For example, themes can be used by setting the theme
