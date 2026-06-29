@@ -7,10 +7,11 @@ md_with_extensions="$md_with_extensions+auto_identifiers"
 # md_with_extensions="$md_with_extensions+implicit_figures"
 md_with_extensions="$md_with_extensions+fenced_divs"
 md_with_extensions="$md_with_extensions+fancy_lists"
+md_with_extensions="$md_with_extensions+startnum"
 md_with_extensions="$md_with_extensions+link_attributes"
 
 
-pandoc_options=
+pandoc_options="--incremental"
 
 # Produce output with an appropriate header and footer (e.g. a standalone HTML,
 # LaTeX, TEI, or RTF file, not a fragment).
@@ -36,7 +37,7 @@ pandoc_options="$pandoc_options --standalone"
 # Headings above this level in the hierarchy are used to divide the slide show
 # into sections; headings below this level create subheads within a slide. 
 # --> pandoc(1) § Structuring the slide show
-pandoc_options="$pandoc_options --slide-level=3"
+pandoc_options="$pandoc_options --slide-level=2"
 
 
 cmd_notify_send=notify-send

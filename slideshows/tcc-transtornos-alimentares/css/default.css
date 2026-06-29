@@ -1,3 +1,6 @@
 img {
     max-height: 80vh !important; /* Scale down if too tall */
 }
+
+ol[type="A"] { list-style-type: upper-alpha !important; }
+ol[type="a"] { list-style-type: lower-alpha !important; }

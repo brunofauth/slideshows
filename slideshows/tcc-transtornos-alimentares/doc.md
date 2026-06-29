@@ -177,14 +177,14 @@ Além da pesquisa sintomática e diagnósticvo diferencial, é útil avaliar:
 
 ## Anorexia Nervosa (cf. DSM-5-TR — CID-10 F50.0)
 
-- A) Restrição da ingesta calórica para nível menor do que as necessidades
+A) Restrição da ingesta calórica para nível menor do que as necessidades
   diárias, acarretando *peso significativamente baixo* (abaixo dos valores
   mínimos da normalidade).
 
-- B) Medo de ganhar peso/engordar; ou ter comportamento que impeça seu ganho,
+B) Medo de ganhar peso/engordar; ou ter comportamento que impeça seu ganho,
   mesmo estando com *peso significativamente baixo*.
 
-- C) (1) Perturbação sobre como vê o peso ou a forma do corpo; (2) influência
+C) \(1) Perturbação sobre como vê o peso ou a forma do corpo; (2) influência
   indevida do peso/forma na avaliação do valor próprio; ou (3) ausência
   persistente de reconhecimento da gravidade do baixo peso corporal atual.
 
@@ -201,36 +201,36 @@ Além da pesquisa sintomática e diagnósticvo diferencial, é útil avaliar:
 
 ## Bulimia Nervosa (cf. DSM-5-TR — CID-10 F50.2)
 
-- A) Tem episódios de recorrentes de compulsão alimentar: ingesta, em período
+A) Tem episódios de recorrentes de compulsão alimentar: ingesta, em período
   bem delimitado, de quantidade de alimento maior do que o "normal" geral das
   pessoas, acompanhada de sensação de perda de controle.
 
-- B) Comportamento compensatório para não engordar: vômitos, abuso de laxantes
+B) Comportamento compensatório para não engordar: vômitos, abuso de laxantes
   e enemas, jejum, exercício extenuante.
 
-- C) Ocorre pelo menos 1x/semana há pelo menos 3 meses.
+C) Ocorre pelo menos 1x/semana há pelo menos 3 meses.
 
-- D) A autoavaliação é indevidamente influenciada pela forma do corpo ou peso.
+D) A autoavaliação é indevidamente influenciada pela forma do corpo ou peso.
 
-- E) Essa perturbação não ocorre exclusivamente enquanto paciente fecha
+E) Essa perturbação não ocorre exclusivamente enquanto paciente fecha
   critérios para anorexia.
 
 
 ## Transtorno de Compulsão Alimentar
 
-- A) Tem episódios de compulsão: ingesta, em período bem delimitado, de
+A) Tem episódios de compulsão: ingesta, em período bem delimitado, de
   quantidade de alimento maior do que o "normal" geral das pessoas.
 
-- B) Cada episódio tem pelo menos 3 dos seguintes: (1) comer mais rápido do que
+B) Cada episódio tem pelo menos 3 dos seguintes: (1) comer mais rápido do que
   o normal; (2) comer até estufar/passar mal; (3) comer mesmo que sem fome; (4)
   comer sozinho por ter vergonha de que lhe vejam comendo "assim"; (5)
   sentimentos de desgosto/tristeza/culpa.
 
-- C) Sofre por causa disso.
+C) Sofre por causa disso.
 
-- D) Ocorre pelo menos 1x/semana há pelo menos 3 meses.
+D) Ocorre pelo menos 1x/semana há pelo menos 3 meses.
 
-- E) Não há comportamento compensatório e não ocorre enquanto paciente fecha
+E) Não há comportamento compensatório e não ocorre enquanto paciente fecha
   critérios para bulimia nervosa ou anorexia nervosa.
 
 
@@ -249,16 +249,16 @@ Além da pesquisa sintomática e diagnósticvo diferencial, é útil avaliar:
 
 ## Modelo cognitivo-comportamental transdiagnóstico
 
-- O núcleo psicopatológico consiste em:
+O núcleo psicopatológico consiste em:
 
-- 1. Supervalorização do peso ou da forma corporal como critério fundamental da
+1. Supervalorização do peso ou da forma corporal como critério fundamental da
      autoestima.
 
-- 2. Sensação de perda do controle sobre a alimentação, incluindo restrição
+2. Sensação de perda do controle sobre a alimentação, incluindo restrição
      alimentar, baixo peso/desnutrição, medo mórbido de aumentar de peso e uso
      de métodos extremos para controle de peso.
 
-- 3. Tentativas de regulação do humor por meio dos sintomas
+3. Tentativas de regulação do humor por meio dos sintomas
 
 
 ## Sobrevôo do protocolo (CBT-E[nhanced])
@@ -474,3 +474,5 @@ Além da pesquisa sintomática e diagnósticvo diferencial, é útil avaliar:
 Foi visto que, para a BN, tanto TIP quanto TCC promoveram mudanças, mas, com a
 TIP, foi mais demorado para ter a resposta desejada.
 
+
+# Obrigado!
