@@ -1,6 +1,7 @@
 THIS REPO WAS INSPIRED IN THE IDEAS PUBLISHED IN
 [THIS GIST](https://gist.github.com/amdevine/1f5fc940983e22524ecd345904ad6459)
 
+[See this in GitHub Pages](https://brunofauth.github.io/slideshows)
 
 # Docs for me in the future
 
