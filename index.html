@@ -3,8 +3,34 @@
 This file really should not be here, but in slideshows/. However, GitHub
 Pages has its limitations
 -->
+<head>
+    <style>
+        body {
+            display: flex;
+            justify-content: center; /* Centers horizontally */
+            align-items: center;     /* Centers vertically */
+            min-height: 100vh;       /* Forces parent to fill full viewport height */
+            margin: 0;               /* Removes default browser margins */
+        }
+
+        /* ul { margin: auto; } */
+        li {
+            width: 100%;
+            margin: 2px;
+            border: 1px solid black;
+            border-radius: 3px; 
+        }
+        li a {
+            display: block;
+            padding: 5px;
+            width: 100%;
+        }
+    </style>
+</head>
 <body>
-<p><a href=slideshows/tdah/index.html>tdah</a></p>
-<p><a href=slideshows/tcc-transtornos-alimentares/index.html>tcc-transtornos-alimentares</a></p>
-<p><a href=slideshows/tcc-para-toc-e-tr/index.html>tcc-para-toc-e-tr</a></p>
-</body>
+    <ul>
+<li><a href=slideshows/tdah/index.html>tdah</a></li>
+<li><a href=slideshows/tcc-transtornos-alimentares/index.html>tcc-transtornos-alimentares</a></li>
+<li><a href=slideshows/tcc-para-toc-e-tr/index.html>tcc-para-toc-e-tr</a></li>
+    </ul>
+body>
