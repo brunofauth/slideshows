@@ -13,7 +13,7 @@ main() {
         || exit 1
 
     links="$(find -mindepth 1 -maxdepth 1 -type d \
-        -printf "<p><a href=$slideshows_dir/%P/index.html>%P</a></p>\n"
+        -printf "<li><a href=$slideshows_dir/%P/index.html>%P</a></li>\n"
     )" || exit 1
 
     cd - || exit 1
@@ -24,8 +24,21 @@ main() {
 This file really should not be here, but in slideshows/. However, GitHub
 Pages has its limitations
 -->
+<head>
+    <style>
+        ul { margin: auto; }
+        li { width: 100%; }
+        li a {
+            display: block;
+            padding: 5px;
+            width: 100%;
+        }
+    </style>
+</head>
 <body>
+<ul>
 $links
+</ul>
 </body>
 " > "$output_index_file"
 
