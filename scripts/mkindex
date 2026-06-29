@@ -25,6 +25,7 @@ This file really should not be here, but in slideshows/. However, GitHub
 Pages has its limitations
 -->
 <head>
+    <meta name=viewport content=\"width=device-width, initial-scale=1\">
     <style>
         body {
             display: flex;
@@ -35,10 +36,11 @@ Pages has its limitations
         }
 
         ul {
-            list-style-type: none;
+            list-style-type: none; /* Remove bullet points */
+            padding: 0px;
         }
         li {
-            width: 100%;
+            width: 100%%;
             margin: 2px;
             border: 1px solid black;
             border-radius: 3px; 
@@ -46,7 +48,7 @@ Pages has its limitations
         li a {
             display: block;
             padding: 5px;
-            width: 100%;
+            width: 100%%;
         }
     </style>
 </head>
