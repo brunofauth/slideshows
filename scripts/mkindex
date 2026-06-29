@@ -26,7 +26,15 @@ Pages has its limitations
 -->
 <head>
     <style>
-        ul { margin: auto; }
+        body {
+            display: flex;
+            justify-content: center; /* Centers horizontally */
+            align-items: center;     /* Centers vertically */
+            min-height: 100vh;       /* Forces parent to fill full viewport height */
+            margin: 0;               /* Removes default browser margins */
+        }
+
+        /* ul { margin: auto; } */
         li {
             width: 100%;
             margin: 2px;
