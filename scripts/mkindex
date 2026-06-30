@@ -29,33 +29,45 @@ Pages has its limitations
     <style>
         body {
             display: flex;
+            flex-direction: column;
             justify-content: center; /* Centers horizontally */
             align-items: center;     /* Centers vertically */
             min-height: 100vh;       /* Forces parent to fill full viewport height */
             margin: 0;               /* Removes default browser margins */
         }
 
+        img {
+            max-width: min(250px, 90vw);
+        }
+
         ul {
             list-style-type: none; /* Remove bullet points */
             padding: 0px;
         }
+
         li {
             width: 100%%;
             margin: 2px;
             border: 1px solid black;
             border-radius: 3px; 
         }
+
         li a {
             display: block;
             padding: 5px;
             width: 100%%;
         }
+
+        a {
+            text-decoration: none;
+        }
     </style>
 </head>
 <body>
-<ul>
-$links
-</ul>
+    <img src=./repo-qrcode.png />
+    <ul>
+    $links
+    </ul>
 </body>
 " > "$output_index_file"
 

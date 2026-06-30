@@ -8,10 +8,17 @@ Pages has its limitations
     <style>
         body {
             display: flex;
+            flex-direction: column;
+
             justify-content: center; /* Centers horizontally */
             align-items: center;     /* Centers vertically */
+
             min-height: 100vh;       /* Forces parent to fill full viewport height */
             margin: 0;               /* Removes default browser margins */
+        }
+
+        img {
+            max-width: min(250px, 90vw);
         }
 
         ul {
@@ -29,9 +36,14 @@ Pages has its limitations
             padding: 5px;
             width: 100%;
         }
+
+        a {
+            text-decoration: none;
+        }
     </style>
 </head>
 <body>
+    <img src=./repo-qrcode.png />
 <ul>
 <li><a href=slideshows/tdah/index.html>tdah</a></li>
 <li><a href=slideshows/tcc-transtornos-alimentares/index.html>tcc-transtornos-alimentares</a></li>
